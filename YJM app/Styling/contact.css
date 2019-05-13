@@ -1,0 +1,34 @@
+.nava {
+    text-align: right;
+}
+
+body{
+    margin-top: 100rem;
+}
+
+.nav {
+    text-align: left;
+}
+
+.satisfy {
+font-family: 'Satisfy', cursive;
+}
+
+.dancing {
+
+font-family: 'Dancing Script', cursive;
+}
+
+.margins1 {
+    margin-block-start: 2% !important;
+    margin-left: 20% !important;
+    margin-right: 2% !important;
+    
+}
+
+.margins2 {
+    margin-block-end: 2% !important;
+    margin-left: 2% !important;
+    margin-right: 20% !important;
+}
+
