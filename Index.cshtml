@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+    <link href="~/css/HWGeolocation.css" rel="stylesheet" />
+
+@*//HOMEWORK GEOLOCATION//*@
+
+<body class="body">
+
+</body>
+
+<div>
+    <h1>BAROS TROPICAL ISLAND RESORT</h1>
+</div>
+
+<div>
+    <h2>REST REVIVE RELAX</h2>
+
+    <p>
+        Turquoise waters lap at white-sand shores. Towering palms rustle overhead. Welcome to Baros, a natural paradise with a lush island canopy, 
+        just 25 minutes by speedboat from the Maldives' international airport. We've been welcoming guests since 1973, and have spent decades honing 
+        our services and cultivating our environment, crafting what we believe is a legendary resort. Today, we're one of the most loved Maldives resorts, 
+        and we're excited to show you what makes us so special.
+    </p>
+
+    <div>
+        <img src="~/images/Tropical1.jpg" width="300" height="300">
+        <img src="~/images/Tropical2.jpg" width="300" height="300">
+        <img src="~/images/Tropical3.jpg" width="300" height="300">
+
+    </div>
+
+    <div>
+        RESOURCES: <a href="https://www.baros.com/">BAROS WEBSITE</a>
+    </div>
+
+    <div id="map" style="width:500px; height:500px;"></div>
+</div>
+
+<script src="~/js/HWGeoLocation.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu7olipwC4ZA8c5dAG0fVKOmRAxAIN-8s&callback=myLocation">
+</script>
